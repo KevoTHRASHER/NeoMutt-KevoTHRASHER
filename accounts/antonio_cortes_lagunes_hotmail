@@ -1,17 +1,17 @@
 ####        USER SETTINGS SEND OPTIONS
-set realname = "Linux Unix"
-set from = "pruebaskevo87@outlook.com"
+set realname = "antonio_cortes_lagunes_hotmail"
+set from = "antonio.cortes.lagunes@hotmail.com"
 
 ####        IMAP SETTINGS RECEIVE OPTIONS
-set imap_user = "pruebaskevo87@outlook.com""
-set imap_pass = "pruebas1987."
+set imap_user = "antonio.cortes.lagunes@hotmail.com"
+set imap_pass = "***"
 # Indica la carperta donde va extraer la información del correo
 # Correo @ Servidor IMAP : PUERTO
-set folder = "imaps://pruebaskevo87@outlook.com@outlook.office365.com:993"
+set folder = "imaps://antonio.cortes.lagunes@hotmail.com@outlook.office365.com:993"
 
 ####        STMP SETTINGS SEND OPTIONS
-set smtp_url = "smtp://pruebaskevo87@outlook.com@smtp.office365.com:587"
-set smtp_pass = "pruebas1987."
+set smtp_url = "smtp://antonio.cortes.lagunes@hotmail.com@smtp.office365.com:587"
+set smtp_pass = "***"
 set smtp_authenticators = 'login'
 
 ####        INBOX & MAILBOXES
@@ -33,4 +33,4 @@ set ssl_force_tls = yes
 
 ####        Hook -- IMPORTANT!
 #   account-hook $folder "set imap_user=$imap_user imap_pass=$imap_pass"
-account-hook $folder "set imap_user=pruebaskevo87@outlook.com imap_pass=pruebas1987."
+account-hook $folder "set imap_user=antonio.cortes.lagunes@hotmail.com imap_pass=***"
